@@ -1,0 +1,92 @@
+# .gitignore
+.env
+dist
+build
+dist-ssr
+scratches
+*.local
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+/out
+
+
+
+## vscode
+.vscode
+.cph
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+
+## IntelliJ
+.idea
+*.iml
+*.ipr
+*.iws
+
+
+## Web
+.next
+.vercel
+*.tsbuildinfo
+next-env.d.ts
+.pnpm-store
+node_modules
+
+## Python
+__pycache__
+.venv
+
+
+## Native
+cmake-build*
+
+## Gradle
+.gradle
+local.properties
+
+## Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+## Flutter
+### Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+
+### Symbolication related
+app.*.symbols
+
+### Obfuscation related
+app.*.map.json
+
+### Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+results
